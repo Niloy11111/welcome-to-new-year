@@ -1,0 +1,68 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner section styles */
+.banner-section{
+    background-image: url('../images/banner/banner1.png');
+    background: url('../images/banner/banner1.png'), lightgray -0.889px 0px / 100.111% 111.51% no-repeat;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    color:#151414;
+font-size: 65px;
+width: 525px;
+height: 230px;
+margin-bottom: 35px;
+}
+.banner-description{
+    color:  #444343;
+font-size: 16px;
+width: 500px;
+height: 80px;
+}
+.btn-primary{
+    border-radius: 5px;
+background: #F15B22;
+padding: 17px 32px;
+margin-top:16px;
+}
+.banner-container{
+    width: 45%;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* here is failure section start */
+.failures-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 320px 0 300px ;
+}
+.failures-right-side{
+    max-width: 450px;
+}
+.failures-title{
+    color:#151414;
+    font-size: 40px; 
+    margin-bottom: 25px;
+}
+.failures-description{
+    color: #444343;
+font-size: 16px;
+margin-bottom: 17px;
+}
+.list-item{
+    color: #444343;
+font-size: 16px;
+gap: 8px;
+}
+
