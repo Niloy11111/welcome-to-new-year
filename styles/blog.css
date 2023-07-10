@@ -47,6 +47,9 @@ margin-top:16px;
     align-items: center;
     margin: 120px 320px 0 300px ;
 }
+.failures-image{
+    background-color: ;
+}
 .failures-right-side{
     max-width: 450px;
 }
@@ -74,10 +77,10 @@ gap: 8px;
 }
 .dream-parent{
     display: flex;
-    justify-content: space-around;
     max-width: 80%;
     margin: 0 auto;
-   
+   gap: 100px;
+   justify-content: center;
 }
 .dream-skill{
     width: 60px;
