@@ -65,25 +65,31 @@ margin-bottom: 17px;
 font-size: 16px;
 gap: 8px;
 }
+
 #my-plan-title{
     text-align: center;
 }
 .dream-parent{
     display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+   
 }
 .dream-skill{
     width: 60px;
     height: 60px;
+    margin: 0 auto;
 }
 .dream-children{
-    max-width: 250px;
+    text-align: center;
 }
 
 
 
 /* back image section */
 .back-image-sec{
-    background-image: url('/images/watch.png');
+    background-image: url('/images/gradient3.png'), url('/images/watch.png');
     width: 1180px;
     height: 250px;
     border-radius: 8px;
